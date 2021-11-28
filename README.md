@@ -87,6 +87,7 @@ Not all wifi adapters can be used due to the limited availability of cracked dri
 ## Directory
 |File|Purpose|
 |-|-|
+|6677889900_1000000.csv|Sample output from theoreticalAnalysis.py|
 |capAnalysis.ipynb|Password cracker|
 |capReader.py|Read a folder of .cap files (single threaded)|
 |capReaderMerger.py|Merge a folder of processed CSV files|
