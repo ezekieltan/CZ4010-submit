@@ -11,6 +11,7 @@ Team members:
 - [Difficulties Faced](https://github.com/ezekieltan/CZ4010-submit#difficulties-faced)
 - [Learning Points](https://github.com/ezekieltan/CZ4010-submit#learning-points)
 - [Equipment Used](https://github.com/ezekieltan/CZ4010-submit#equipment-used)
+- [Directory](https://github.com/ezekieltan/CZ4010-submit#directory)
 - [Use of Code](https://github.com/ezekieltan/CZ4010-submit#use-of-code)
 - [References](https://github.com/ezekieltan/CZ4010-submit#references)
 
@@ -82,6 +83,22 @@ Not all wifi adapters can be used due to the limited availability of cracked dri
 |Realtek RTL8188EU (with aircrack driver)|	CentOS 7|Python 3.9.6|
 |HP Omen 15-CE0XX (i7-7700HQ, 16GB RAM)	|aircrack-ng|Windows 10 21H1|
 ||aircrack RTL8188eus driver|editcap (part of Wireshark)|
+
+## Directory
+|File|Purpose|
+|-|-|
+|capAnalysis.ipynb|Password cracker|
+|capReader.py|Read a folder of .cap files (single threaded)|
+|capReaderMerger.py|Merge a folder of processed CSV files|
+|capReaderMulti.py|Read a folder of .cap files (multi threaded)|
+|capReaderSingle.py|Worker for capReaderMulti.py|
+|helper.py|RC4 functions and string converters|
+|lib_FileSystemUtilities.py|To assist in file operations https://github.com/ezekieltan/GenericUtilities|
+|lib_TableReader.py|To assist in CSV operations https://github.com/ezekieltan/TableReader|
+|theoreticalAnalysis.py|Statistical analysis of number of IVs|
+|theoreticalAnalysis2.py|Viewer for CSVs from theoreticalAnalysis.py|
+|WEPcrack-05.cap|Sample .cap file from airodump|
+|WEPcrack-05.csv|Sample .csv file for cracking password|
 
 ## Use of Code
 | Steps |	Command | Remarks |
